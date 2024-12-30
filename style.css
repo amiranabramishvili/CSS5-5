@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #040405;
+}
+
+.HeaderDiv {
+    display: flex;
+    max-width: 100%;
+    padding: 16px 200px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #003004;
+    margin-bottom: 112px;
+}
+
+.HeaderBar {
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+.BarDiv {
+    display: flex;
+    gap: 16px;
+}
+
+.ParagraphBar {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.walletDiv {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: #00FF1A;
+    border: none;
+}
+
+.walletDiv button {
+    border: none;
+    background: #00FF1A;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.MainDivFirst {
+    display: flex;
+    max-width: 1040px;
+    gap: 151px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 112px;
+}
+
+.ConteinerFirst {
+    width: 564px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ConteinerFirst :first-child {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.FirstChild span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.SecChild h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.ThirdChild p {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    width: 546px;
+}
+
+.ForthChild {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.ButtonFirst button {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 12px 24px;
+    border-radius: 24px;
+    background: #00FF1A;
+    border: none;
+}
+
+.ButtonSecond button {
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: 1px solid #00FF1A;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    background: none;
+}
+
+.SecMainDiv {
+    display: inline-flex;
+    padding-top: 24px;
+    align-items: flex-start;
+    gap: 40px;
+    border-top: 1px solid #00FF1A;
+    margin-left: 234px;
+    margin-bottom: 112px;
+}
+
+.SecMainDivBar {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.SecMainDivBar p {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.SecMainDivBar span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.ThirdMainDiv {
+    display: flex;
+    max-width: 1040px;
+    align-items: flex-start;
+    gap: 22px;
+    margin: 0 auto;
+    margin-bottom: 112px;
+}
+
+.ColumnDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.ImgLineDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.ImgLineDiv span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.TitleBoosted h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.DepositParagraphDiv p {
+    width: 526px;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.DotDiv {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.WithdrawalsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.WithdrawalsDiv h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.WithdrawalsDiv p {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.ForthMainDiv {
+    display: flex;
+    width: 1040px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 0 auto;
+    margin-bottom: 112px;
+}
+
+.LineProcessDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.LineProcessDiv span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.WorksDiv h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.RowDivOne {
+    display: flex;
+    align-items: center;
+    gap: 213px;
+}
+
+.RegisterDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.RegisterDivv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+
+}
+
+.RegisterDivv h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+.RegisterDivv span {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.AllOf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.FifthMainDiv {
+    display: flex;
+    max-width: 1040px;
+    align-items: flex-start;
+    gap: 22px;
+    margin: 0 auto;
+    margin-bottom: 112px;
+}
+
+.NextCRVDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 509px;
+}
+
+.CRVDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.CRVDiv span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.CRVH h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 509px;
+}
+
+.CRVParagraphDiv p {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.GreenBorderDiv {
+    display: flex;
+    height: 111px;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border-left: 2px solid #00FF1A;
+}
+
+.DepostH {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+.LpSpan {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.GreyBorderDiv {
+    display: flex;
+    height: 111px;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border-left: 2px solid #4A4A4E;
+
+}
+
+.LastMainDiv {
+    display: flex;
+    width: 1040px;
+    align-items: center;
+    gap: 24px;
+    margin: 0 auto;
+    margin-bottom: 225px;
+}
+
+.WidthDiv {
+    display: flex;
+    max-width: 624px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.BigDivAvatar {
+    display: flex;
+    padding: 24px 32px;
+    align-items: flex-start;
+    align-self: stretch;
+    background: #1C1C20;
+    width: 624px;
+    height: 416px;
+    gap: 16px;
+}
+
+.avatarDiv {
+    display: flex;
+    align-items: center;
+}
+
+.FlexDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.sixsix {
+    display: flex;
+    width: 440px;
+    gap: 12px;
+}
+
+.starDiv {
+    display: flex;
+    align-items: center;
+}
+
+.starDiv p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.starDiv span {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.Paragraphmetus {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Paragraphmetus p {
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+}
+
+.Paragraphmetus span {
+    color: #00FF1A;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+}
+
+.Paragraphmetus h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.flexend {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.arrowDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
