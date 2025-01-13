@@ -448,14 +448,17 @@ body {
     gap: 12px;
 }
 
+.avatarDivWrapper {
+    background: #1C1C20;
+    padding: 24px 32px;
+    width: 624px;
+}
+
 .BigDivAvatar {
     display: flex;
-    padding: 24px 32px;
     align-items: flex-start;
     align-self: stretch;
-    background: #1C1C20;
     width: 624px;
-    height: 416px;
     gap: 16px;
 }
 
@@ -504,6 +507,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 640px;
 }
 
 .Paragraphmetus p {
@@ -514,6 +518,7 @@ body {
     font-weight: 400;
     line-height: 136.023%;
     letter-spacing: 0.77px;
+    width: 440px;
 }
 
 .Paragraphmetus span {
@@ -539,6 +544,7 @@ body {
 .flexend {
     display: flex;
     justify-content: flex-end;
+    width: 440px;
 }
 
 .arrowDiv {
@@ -587,4 +593,209 @@ body {
     display: flex;
     align-items: flex-start;
     gap: 16px;
+}
+
+.CRVColmn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.supportcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    width: 624px;
+}
+
+.NineDiv {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    background: #1C1C20;
+}
+
+.twelveColDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.CallDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.twelveColDiv h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.twelveColDiv p {
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+}
+
+.twelveColDiv span {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.EmailDivRight {
+    display: flex;
+    padding: 24px 32px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: #1C1C20;
+}
+
+.MainEmailDiv {
+    display: flex;
+    width: 328px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.YourNameDiv {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #565656;
+}
+
+.YourNameDiv input {
+    background-color: #1C1C20;
+    border: none;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.EnterEmailDiv {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #565656;
+}
+
+.EnterEmailDiv input {
+    background-color: #1C1C20;
+    border: none;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.MainEmailDiv h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.PhoneNumberDiv {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #565656;
+}
+
+.PhoneNumberDiv input {
+    background-color: #1C1C20;
+    border: none;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.TextareaDiv {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #565656;
+}
+
+.TextareaDiv textarea {
+    background-color: #1C1C20;
+    border: none;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    width: 328px;
+    height: 155px;
+    align-items: flex-start;
+}
+
+.DivButtonDiv button {
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: #00FF1A;
+    border: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    width: 328px;
+
 }
